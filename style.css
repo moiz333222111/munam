@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%
+    
+}
+
+body{
+    background-image: url(sky.jpg);
+}
+
+.navbar{
+    background-color: black;
+
+
+}
+.navlist{
+    color: blanchedalmond;
+    display: flex;
+    
+}
+.navlist li{
+    display: flex;
+    padding: 40px;
+    cursor: pointer;
+
+}
+.navlist li:hover{
+    color: white; 
+    text-decoration: none;
+}
+
+.logo img{
+    width: 90px;
+    border-radius: 500px;
+    border: solid gray;
+}
+
+.meca{
+    width: 33%;
+}
+.services{
+    padding-left: 2%;
+}
+.secondsection{
+    color: white;
+    padding-left: 2%;
+    text-decoration: dotted;
+}
+
+.button{
+    padding-left: 45%;
+    padding-top: 15%;
+color: black;
+
+}
+
+.btn{
+    font-size: 150%;
+    background-color: black;
+    border-radius: 10px;
+    border: dodgerblue;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.btn :hover{
+    color: black;
+}
